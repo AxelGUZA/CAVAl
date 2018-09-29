@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Nous contacter</title>
+  <link rel="stylesheet" href="css/default.css">
+  <link rel="stylesheet" href="css/burger.css">
+  <link rel="stylesheet" href="css/formulaire.css">
+
+  <link rel="icon" type="image/png" href="images/index.ico">
+
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+</head>
+<body>
+  <div id="background">
+    <header>
+
+        <nav>
+          <div id="menuToggle">
+
+            <input type="checkbox" />
+
+            <span></span>
+            <span></span>
+            <span></span>
+
+            <ul id="menu">
+              <a href="caval.html"><li>Accueil</li></a>
+              <a href="info.html"><li>Informations</li></a>
+              <a href="boutique.html"><li>Boutique</li></a>
+              <a href="divers.html"><li>Soutenez nous</li></a>
+              <a href="formulaire.html" class="lifin"><li>Des Questions</li></a>
+
+            </ul>
+          </div>
+        </nav>
+
+        <div id="titre">
+        <a href="caval.html"><img src="images/logo1.png" alt="logo"></a>
+      </div>
+
+      <div id="boutique">
+        <p><a href="boutique.html" class='bouton1'>boutique</a></p>
+      </div>
+    </header>
+
+    <div id='navi'>
+      <a href="caval.html"><li>Accueil</li></a>
+      <a href="info.html"><li>Informations</li></a>
+      <a href="boutique.html"><li>Boutique</li></a>
+      <a href="divers.html"><li>Soutenez nous</li></a>
+      <a href="formulaire.html" class="lifin"><li id="selection">Des Questions</li></a>
+    </div>
+
+    <div id="blocts">
+
+      <form method="post" action="traitement.php">
+          <p><label>Votre Nom</label> : <input type="text" name="nom" class="nom" placeholder=" Nom " size="30" maxlength="30" /> </p>
+          <p><label>Votre Mail</label> : <input type="email" name="mail" class="mail" placeholder=" xxx@caval.com " size="30" maxlength="30"/> </p>
+
+
+          <label>Posez votre question sur : </label>
+           <select name="typedequestion" class="typedequestion">
+               <option value="produit">Produit</option>
+               <option value="livraison">Livraison</option>
+               <option value="retours">Retours</option>
+           </select>
+
+       <p><label>Object</label> : <input type="text" name="object" class="object" placeholder=" Object " size="30" maxlength="30"/> </p>
+          <p><label></label><textarea name="Question" class="question" placeholder=" Bonjour,.. "></textarea></p>
+          <p class="textfinformulaire">
+            Autorise a ce que l'on m'envoie des new-letters:
+            <input type="checkbox" name="choix">
+          </p>
+
+          <p><label></label><input type="button" name="bouton2" class="bouton2" value="Envoyer" title="envoyer"></p>
+
+             <p>
+
+
+      </form>
+
+
+
+      <div id='navigabar'>
+        <div class="navbar">
+         <a href="divers.html" id="img1"><img src="images/coeur.png" class='imagebar' alt="coeur"></a>
+          <a href="info.html" id="img2"><img src="images/journal.png" class='imagebar' alt="journal"></a>
+          <a href="formulaire.html" id="img3"><img src="images/ampoulec.png" class='imagebar' alt="ampoule"></a>
+        </div>
+      </div>
+
+
+    </div>
+
+    <div id="ordi">
+
+      <h1>Remplissez le formulaire afin de nous faire parvenir votre question </h1>
+
+      <form method="post" action="traitement.php">
+          <p><label >Votre Nom</label> : <input type="text" name="nom" class="nom" placeholder=" Nom " size="30" maxlength="30" /> </p>
+          <p><label >Votre Mail</label> : <input type="email" name="mail" class="mail" placeholder=" xxx@caval.com " size="30" maxlength="30"/> </p>
+
+
+          <label>Posez votre question sur : </label>
+           <select name="typedequestion" class="typedequestion">
+               <option value="produit">Produit</option>
+               <option value="livraison">Livraison</option>
+               <option value="retours">Retours</option>
+           </select>
+
+       <p><label >Object</label> : <input type="text" name="object" class="object" placeholder=" Object " size="30" maxlength="30"/> </p>
+          <p><label  ></label><textarea name="Question" class="question" placeholder=" Bonjour,.. "></textarea></p>
+          <p class="textfinformulaire">
+            Autorise a ce que l'on m'envoie des new-letters:
+            <input type="checkbox" name="choix">
+          </p>
+
+          <p><label></label><input type="button" name="bouton2" class="bouton2" value="Envoyer" title="envoyer"></p>
+
+             <p>
+
+
+      </form>
+    </div>
+
+    <footer>
+      <div id="news">
+        <h1> Restez à la page </h1>
+        <p>Pour çetre au courant des dernières nouveutés et avancées du projet</p>
+        <p><label >Votre Mail</label> : <input type="email" name="mail" class="mail" placeholder=" saisir votre email " size="30" maxlength="30"/> </p>
+      </div>
+
+    <div id="contact">
+    <h2>Nous contacter</h2>
+        <p>Retrouvez nous sur les différents réseaux</p>
+              <a href="#" ><img src="images/logo/mailw.png" class='logo' alt="mail"></a>
+              <a href="https://www.facebook.com/CavalChaussures/" ><img src="images/logo/facebookw.png" class='logo' alt="facebbok"></a>
+              <a href="https://www.instagram.com/caval_chaussures/" ><img src="images/logo/instagramw.png" class='logo' alt="instagram"></a>
+              <a href="#" ><img src="images/logo/google+w.png" class='logo' alt="googleplus"></a>
+              <a href="#" ><img src="images/logo/pinterestw.png" class='logo' alt="pinterest"></a>
+              <a href="#" ><img src="images/logo/ytw.png" class='logo' alt="youtube"></a>
+              <a href="#" ><img src="images/logo/viemeow.png" class='logo' alt="viemeo"></a>
+              <a href="https://fr.ulule.com/en-caval/" ><img src="images/logo/ululeb.png" class='logo' alt=""></a>
+    </div>
+
+    </footer>
+  </div>
+ <img src="images/fond/fond2.png" id="fond" alt="fond">
+
+</body>
+</html>

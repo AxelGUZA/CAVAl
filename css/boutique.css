@@ -1,0 +1,353 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/*Global*/
+html, body, div, span, applet, object, iframe,
+	h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+	a, abbr, acronym, address, big, cite, code,
+	del, dfn, em, img, ins, kbd, q, s, samp,
+	small, strike, strong, sub, sup, tt, var,
+	b, u, i, center,
+	dl, dt, dd, ol, ul, li,
+	fieldset, form, label, legend,
+	table, caption, tbody, tfoot, thead, tr, th, td,
+	article, aside, canvas, details, embed,
+	figure, figcaption, footer, header, hgroup,
+	menu, nav, output, ruby, section, summary,
+	time, mark, audio, video {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		font-size: 100%;
+		font: inherit;
+		vertical-align: baseline;
+	}
+	/* HTML5 display-role reset for older browsers */
+	article, aside, details, figcaption, figure,
+	footer, header, hgroup, menu, nav, section {
+		display: block;
+	}
+	body {
+		line-height: 1;
+	}
+	ol, ul {
+		list-style: none;
+	}
+	blockquote, q {
+		quotes: none;
+	}
+	blockquote:before, blockquote:after,
+	q:before, q:after {
+		content: '';
+		content: none;
+	}
+	table {
+		border-collapse: collapse;
+		border-spacing: 0;
+	}
+@media screen and (min-width: 0px) and (max-width: 768px){
+  	#ordi{
+		display: none;
+	}
+
+
+ .type,.quantite,.coloris,.taille{
+     width: 30%;
+  margin-left: 15%;
+ margin-bottom: 7%;
+
+  }
+
+.type{
+ margin-bottom: 11%;
+}
+
+.menu-vertical, .menu-vertical ul {
+  padding:0;
+  margin:0;
+  list-style:none;
+  font-size: 25px;
+  width: 120px; /* seule ligne rajoutée */
+  text-align: center;
+  box-shadow: 1px 1px 3px black;
+}
+.menu-vertical li {
+  position: relative;
+  background:#EFEFEF; /* juste pour cacher le texte de la page en-dessous */
+}
+.menu-vertical a {
+  display:block;
+  text-decoration: none;
+  color: #333;
+}
+.menu-vertical ul {
+  position: absolute;
+  left:-999em;
+}
+.menu-vertical li:hover ul {
+  top: 0;
+  left: 120px;
+  width: 150px;
+}
+
+
+
+
+  .colors:hover
+  {
+    background-color:#AAA;
+    color: tomato;
+  }
+
+.image1
+  {
+    padding-top: 10%;
+    padding-left: 1.7%;
+  }
+
+  #blocts h1{
+  padding: 10px 50px;
+   font-size: 24px;
+
+  }
+
+  .chaussure1 p{
+    padding: 10px 20px;
+    margin-left:10px;
+    text-align: justify;
+    font-size: 18px;
+  }
+
+  .acheter
+  {
+   padding-left:%;
+    display:inline-block;
+  }
+
+
+  .bouton{
+    background-color: #ff5555;
+    color: white;
+    padding: 10px 10px;
+    font-size: 20px;
+    border: 1px solid black;
+    font-weight: bold;
+    border-radius: 5px;
+    display: inline-block;
+    width: 85%;
+
+  }
+
+  .bouton:hover{
+    color: #fff;
+    background-color: #ff7777;
+  }
+
+  #blocts h2{
+    padding-left: 10%;
+    width: 30%;
+    font-size: 23px;
+    display: inline-block;
+    font-weight: bold;
+  }
+
+  .blockp
+  {
+    background-color: #DDD;
+    margin:13px;
+    width: 96%;
+    height: 550px;
+    border-radius: 10px;
+  }
+  .hed{
+    background-color: #333;
+    color: white;
+    border-radius: 10px 10px 0px 0px ;
+  }
+
+  footer
+  {
+  margin-top: 20px;
+	background-color: #eee;
+	box-shadow: 1px 0px 3px black;
+  }
+
+
+
+	footer #news,#contact{
+		display: none;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+POUR ORDINATEUR
+*/
+
+
+
+
+@media screen and (min-width: 770px){
+
+
+
+    p{
+    text-align: justify;
+    font-size: 20px;
+  }
+
+  h1{
+    font-size:26px;
+    margin: 1%;
+  }
+
+  h2{
+    text-align: center;
+  }
+
+     footer {
+
+		position: absolute;
+    bottom: 20px;
+
+  }
+
+    #background
+  {
+    height: 1290px;
+  }
+
+
+
+	.type,.quantite,.coloris,.taille{
+     width: 30%;
+  margin-left: 40%;
+    margin-top: 5%;
+ margin-bottom: 7%;
+
+  }
+
+.type{
+ margin-bottom: 11%;
+}
+  .fleche
+  {
+    display: none;
+  }
+
+.menuv:hover .fleche
+  {
+    display: block;
+    float: left;
+    margin-left: 270px;
+  }
+
+  .taille ul .petitefleche
+  {
+    display:none;
+  }
+
+   .taille ul li:hover .petitefleche
+  {
+    float: left;
+    width: 50%;
+    z-index: 100;
+  }
+
+.menu-vertical, .menu-vertical ul {
+  padding:0;
+  margin:0;
+  list-style:none;
+  font-size: 30px;
+  width: 190px; /* seule ligne rajoutée */
+  text-align: center;
+  box-shadow: 1px 1px 3px black;
+}
+.menu-vertical li {
+  position: relative;
+  background:#EFEFEF; /* juste pour cacher le texte de la page en-dessous */
+}
+.menu-vertical a {
+  display:block;
+  text-decoration: none;
+  color: #333;
+}
+.menu-vertical ul {
+  position: absolute;
+  left:-999em;
+}
+.menu-vertical li:hover ul {
+  top: 0;
+  left: 190px;
+}
+
+
+  .colors:hover
+  {
+    background-color:#AAA;
+    color: tomato;
+  }
+
+
+
+	.image1{
+		width: 100%;
+    display: inline-block;
+	}
+
+	.blockp{
+    padding-top: 50px;
+		width: 49%;
+    display: inline-block;
+	}
+
+  .chaussure1{
+
+
+    width: 48%;
+    display: inline-block;
+    margin-left: 2%;
+    vertical-align: top;
+    margin-top : 10%;
+  }
+
+    .bouton{
+    background-color: #c26d8b;
+    color: white;
+    font-size: 30px;
+    border: 1px solid black;
+    font-weight: bold;
+    border-radius: 5px;
+      padding: 10px 10px;
+      margin-left: 42%;
+      text-decoration: none;
+  }
+
+  .bouton:hover{
+    color: #fff;
+    background-color: #ff7777;
+  }
+
+  .info{
+    margin: 5% 2%;
+
+
+  }
+
+  #fond
+  {
+    margin-top: 23%;
+  }
+}

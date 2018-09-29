@@ -1,0 +1,98 @@
+@media screen and (min-width: 0px) and (max-width: 768px){
+/*Global*/
+
+  
+#blocts
+  {
+    padding-top: 30px; 
+    padding-left: 30%;
+    width: 50%;
+    height: 813px;
+    display: inline-block;
+  }
+  .image1
+  {
+    width: 70%;
+    display: inline-block;
+    padding-top : 20px;
+  }
+  
+  #blocts .texte1{ 
+    display: inline-block;
+  width : 50%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+    padding-left: 10%;
+    margin-bottom: 2%;
+ 
+  }
+  
+  footer{
+      margin-top: 20px;
+	background-color: #eee;
+	box-shadow: 1px 0px 3px black;
+
+  }
+  
+
+}
+
+@media screen and (min-width: 770px){
+  
+    #fond{
+    margin-top: 13%;
+  }
+#blocts
+  {
+    padding-top: 3%; 
+    padding-left: 27%;
+    width: 50%;
+    display: inline-block;
+  }
+  .image1
+  {
+    width: 25%;
+    display: inline-block;
+    padding-top : 3%;
+    padding-left: 38%;
+  }
+  
+  #blocts .texte1{ 
+    display: inline-block;
+    width : 50%;
+    text-align: center;
+     padding-left: 40px;
+    
+ 
+  }
+  
+  #blocts p{
+    margin-left: 20%;
+  }
+  footer{
+  margin-top: 30px;
+	background-color: #eee;
+	box-shadow: 1px 0px 3px black;
+
+  }
+  
+  .navbar a {
+
+		width: 19.7%;
+
+}
+  
+  p{
+    font-size: 16px;
+    margin: 1%;
+  }
+  
+  h1{
+    font-size: 28px;
+  }
+  
+  #contact{
+    width: 43%;
+  }
+}

@@ -1,0 +1,14 @@
+#blocts
+{
+  padding-top: 60px;
+}
+
+ 
+footer 
+  {
+  width: 100%;
+	bottom: 0%;
+	background-color: #eee;
+	position: absolute;
+	box-shadow: 1px 0px 3px black;
+  }

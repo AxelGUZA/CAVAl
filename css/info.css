@@ -1,0 +1,200 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+	h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+	a, abbr, acronym, address, big, cite, code,
+	del, dfn, em, img, ins, kbd, q, s, samp,
+	small, strike, strong, sub, sup, tt, var,
+	b, u, i, center,
+	dl, dt, dd, ol, ul, li,
+	fieldset, form, label, legend,
+	table, caption, tbody, tfoot, thead, tr, th, td,
+	article, aside, canvas, details, embed,
+	figure, figcaption, footer, header, hgroup,
+	menu, nav, output, ruby, section, summary,
+	time, mark, audio, video {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		font-size: 100%;
+		font: inherit;
+		vertical-align: baseline;
+	}
+	/* HTML5 display-role reset for older browsers */
+	article, aside, details, figcaption, figure,
+	footer, header, hgroup, menu, nav, section {
+		display: block;
+	}
+	body {
+		line-height: 1;
+	}
+	ol, ul {
+		list-style: none;
+	}
+	blockquote, q {
+		quotes: none;
+	}
+	blockquote:before, blockquote:after,
+	q:before, q:after {
+		content: '';
+		content: none;
+	}
+	table {
+		border-collapse: collapse;
+		border-spacing: 0;
+	}
+
+@media screen and (min-width: 0px) and (max-width: 768px){
+
+/*Global*/
+		#ordi{
+		display: none;
+	}
+	
+#blocktext
+	{
+		width: 90%;
+		text-align: justify;
+		font-size: 19px;
+		padding: 80px 30px 0px 30px;
+		font-family: "Times New Roman", Times, "Liberation Serif", FreeSerif, serif;
+    font-family: Georgia, "DejaVu Serif", Norasi, serif;
+	}
+
+#blocktext h1
+	{
+		font-size: 23px;
+		padding : 20px 10px;
+		font-family: Arial, Helvetica, sans-serfif;
+		text-align: center;
+		color: tomato;
+	}
+
+	#blocktext p{
+		padding-top: 10px;
+	}
+	ul
+	{
+		font-size:15px;
+		padding-left: 10px;
+
+	}
+	.ecart
+	{
+		padding-left:  0px;
+		font-size: 20px;
+	}
+	li{
+		padding: 10px;
+
+		list-style-type: circle;
+
+	}
+
+footer
+	{
+	  margin-top: 20px;
+	background-color: #eee;
+	box-shadow: 1px 0px 3px black;
+	}
+
+
+}
+
+
+
+
+
+/*
+
+
+POUR L'ORDINATEUR
+
+
+*/
+
+	@media screen and (min-width: 770px){
+	/* Screen principale */
+		
+		
+@font-face{
+	font-family:"Handgley";
+	src : url('../font/handgley_regular.ttf');
+}
+
+		#ordi{
+			margin: 3%;
+			margin-left: 5%;
+			margin-right: 5%;
+		}
+		
+		
+		#blockImage{
+			margin: 20px 0px 30px 30%;
+
+		}
+				#blockImage2{
+margin: 20px 0px 20px 9%;
+
+		}
+				#blockImage3{
+			margin: 20px 0px 20px 0%;
+				border-radius: 50%;
+		}
+		#blockImage4{
+			margin: 20px 0px 0px 9%;
+
+		}
+		.blockdimage
+		{
+			width: 30%;
+			display: inline-block;
+		}
+
+
+		h1{
+			font-size: 24px;
+			margin: 1%;
+		}
+
+		.par{
+			margin-top: 2%;
+			text-align : justify;
+		}
+		
+		#nous{
+			display: inline-block;
+		}
+				#imagepatron
+		{
+			border-radius: 50%;
+			width: 30%;
+
+		}
+		
+		#textpatron
+		{
+			margin-top: 11%;
+			float: right;
+			width: 60%;
+		}
+
+	 footer{
+		 margin-top: 2%;
+
+		  }
+		
+		#fond{
+			margin-top: 83.5%;
+		}
+		
+		.imagebar{
+			display: none;
+		}
+		
+		#nous p{
+			font-family: "Handgley";
+		}
+}

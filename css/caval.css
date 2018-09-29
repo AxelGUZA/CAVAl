@@ -1,0 +1,110 @@
+@media screen and (min-width: 0px) and (max-width: 768px){
+	
+	#VincentMia
+	{
+		margin-bottom: 10%;
+	}
+footer
+{
+  width: 100%;
+	background-color: #eee;
+	box-shadow: 1px 0px 3px black;
+
+}
+	.imagepagepre
+	{
+		display: none;
+	}
+	
+#produit{
+		margin:0 auto;
+		font-size: 24px;
+		width: 70%;
+		text-align: center;
+	}
+	#produit img{
+		padding-top: 20px;
+		padding-bottom: 20%;
+		width: 80%;
+		
+	}
+	
+	#produit img:hover{
+		opacity: 0.8;
+		border-radius: 45%;
+}
+	
+}
+@media screen and (min-width: 770px){
+
+	#produit{
+		margin:0 auto;
+		font-size: 24px;
+		width: 50%;
+		text-align: center;
+	}
+	#produit img{
+		padding-top: 20px;
+		padding-bottom: 20%;
+		width: 40%;
+		
+	}
+	
+	#produit img:hover{
+		opacity: 0.8;
+		border-radius: 45%;
+	}
+#container
+	{
+		margin: 30px 0;
+		padding-bottom: 30px;
+	}
+	#container p{
+		font-size: 20px;
+		width: 80%;
+	}
+
+
+	#container .image{
+		display: none;
+	}
+	
+.imageChau
+	{
+		padding: 0;
+		margin: 50px 0;
+		width: 20%;
+	}
+	.imageChau:hover{
+		opacity: 0.5;
+	}
+	
+	#Korbeen\&Leeloo
+	{
+		padding: 0px;
+		margin: 0px 0px 0px 16.5%;
+		margin-bottom: 2.5%;
+	}
+	#Vincent\&Mia{
+		margin: 0px 0px 0px 16.5%;
+		margin-bottom: 2%;
+	}
+	.titreChaussure
+	{
+		margin: 20px 0px 0px 0px;
+		padding-top: 30px;
+		font-size:30px;
+	}
+
+	
+
+  footer{
+		margin-top: 30px;
+    bottom: 0%;
+		position: absolute;
+		margin-bottom : 20px;
+  }
+	#fond{
+		
+		margin-top: 55%;
+	}
